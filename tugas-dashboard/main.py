@@ -268,4 +268,3 @@ else:
     S0 = new_state()
     phase_ph.markdown(f"**{S0['phase']}**")
     topo_ph.markdown(topo_svg(S0), unsafe_allow_html=True)
-    st.caption("Dibuat dengan Streamlit · berdasarkan proyek Flower quickstart-tensorflow")
